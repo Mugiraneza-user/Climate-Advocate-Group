@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Workshop</title>
+    <style>
+        h2{
+            font-size: 32px;
+            color: black;
+            padding-top: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+        p{
+            padding: 30px;
+            font-size: 20px;
+            padding-top: 30px;
+        }
+    </style>
+    <link rel="stylesheet" href="stlye.css">
+</head>
+<body>
+    
+         <!-- Navigation bar container -->
+         <nav class="navbar">
+            <!-- Brand name/logo -->
+            <div class="navbar-brand">Climate Advocate Group</div>
+    
+            <!-- Hamburger menu for mobile view -->
+            <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+    
+            <!-- Navigation menu -->
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="service.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="our work-more.html" class="nav-link">Partner</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="donate.html" class="nav-link">Donate</a>
+                </li>
+            </ul>
+        </nav>
+    <h2>Service Workshop And Training</h2>
+    <p>Cooming Soon ...</p>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+<script>
+    const toggleBtn=document .querySelector('.toggle_btn')
+    const toggleBtnIcon=document .querySelector('.toggle_btn i')
+    const dropdown=document .querySelector('.drop')
+    
+    toggleBtn .onclick=function(){
+        dropdown.classList('open')
+        const isOpen=dropdown.classList.contains('open')
+        toggleBtn .classList=isOpen
+        ?'fa-solid fa-xmark'
+        :'fa-solid fa-bars'
+    }
+</script>
+<script src="main.js"></script>
+</body>
+
+
+</html>

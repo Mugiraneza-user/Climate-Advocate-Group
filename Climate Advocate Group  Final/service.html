@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate advocate group sevice</title>
+    <link rel="stylesheet" href="stlye.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        h2{
+          justify-content: center;
+          text-align: center;
+
+        }
+       .service-offered {
+        justify-content: center;
+
+       }
+    </style>
+</head>
+<body>
+   
+         <!-- Navigation bar container -->
+    <nav class="navbar">
+        <!-- Brand name/logo -->
+        <div class="navbal-brand-logo">
+            <img id="logo" src="logo.jpg" alt="image" width="120vh" height="90vh">
+        </div>
+        <div class="navbar-brand"> 
+          Climate Advocate Group</div>
+
+        <!-- Hamburger menu for mobile view -->
+        <div class="hamburger" id="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <!-- Navigation menu -->
+        <ul class="nav-menu" id="nav-menu">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="service.html" class="nav-link">Services </a>
+                <div class="drop-down">
+                    <ul>
+                        <li><a href="service.html">Workshops </a></li>
+                        <li><a href="service.html">Training </a></li>
+                        <li><a href="service.html">Online Courses </a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="our work-more.html" class="nav-link">Our Work</a>
+                <div class="drop-down">
+                    <ul>
+                        <li><a href="our works.html">Climate Education and Awareness </a></li>
+                        <li><a href="our works.html">Youth Engagement Program </a></li>
+                        <li><a href="our works.html">Urban Farming Initiatives </a></li>
+                        <li><a href="our works.html">Climate Finance Workshops</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a href="donate.html" class="nav-link" id="activem">Donate</a>
+            </li>
+        </ul>
+    </nav>
+    <section class="service">
+        <h2>Service We Offered</h2>
+        <div class="service-offered">
+          <div class="offered-map" >
+            <h6><i class="fa-solid fa-shop"></i></h6>
+            <h4>Workshop &Training</h4>
+            <button id="more" onclick="document.location='service online.html'">Explore More</button>
+          </div>
+          <div class="offered-map">
+            <h6><i class="fa-solid fa-signal"></i></h6>
+            <h4>Online Courses</h4>
+            <button id="more" onclick="document.location='service workshop.html'">Explore More</button>
+          </div>
+        </div>
+
+    </section>
+    <section class="footer">
+       
+        <div class="more-links">
+            <h4>Quick links</h4>
+            <a href="about.html">About us</a>
+            <a href="about.html">Mission</a>
+            <a href="our work-more.html">Our Works</a>
+            <a href="service.html">Service</a>
+            <a href="contact.html">Contact us</a>
+            <a href="donate.html">Donate</a>
+            
+        </div>
+        <div class="contact-information">
+            <h4>Get in touch</h4>
+            <h6> <i class="fa-solid fa-location-dot"></i> Our Location</h6>
+            <p>
+                KIKURO District || Agahanga sector<br>
+                <br>
+                KALEMBULE cell | NR6 <br>
+                <br>
+                HOUSE NAME: NDABA ROCK</p>
+            <h6> <i class="fa-solid fa-phone"></i> Telephone</h6>
+            <p>0786813204</p>
+            <h6><i class="fa-solid fa-envelope"></i> Email</h6>
+            <p>Climateadvocategroup@gmail.com</p>
+          
+        </div>
+        <div class="social-media">
+            <h2>Get involved</h2>
+            <p>You can follow us on this social media <br> and you get in touch with us <p>
+            <div class="fas">
+                <i class="fa-brands fa-facebook"></i>
+                <a href="https://www.linkedin.com/company/climate-advocate-group/" target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
+               <a href="https://youtube.com/@climateadvocategroup?si=ZfI1xE51E_pY-hRH" target="_blank"><i class="fa-brands fa-youtube" ></i>  </i></a>
+               <a href="https://x.com/cagr_oup?t=OuJOt_j9MtA444nPyEfJBA&s=09" target="_blank">  <i class="fa-brands fa-x-twitter"></i></a>
+               <a href="https://www.instagram.com/cagr_oup?igsh=MW5ud3MxNXE3dWpyOA==" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+               
+            </div>
+        </div>
+        <div class="subs">
+            <h4>Subscribe</h4>
+            <p>Subscribe to our newsletter to get our news & deals delivered to you</p>
+            <input type="email" name="email" id="email" placeholder="Email">
+            <input type="submit" id="submit" value="submit">
+            <div class="donate">
+                <button id="button"> Donate</button></div>
+        </div>
+</section>
+<section class="foots">
+    <div class="copy">
+       <p>Coy Rights reserved  by Climate Advocate Group <i class="fa-solid fa-copyright"></i> 2024</p> </i>
+    </div>
+    
+</section>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+<script>
+    const toggleBtn=document .querySelector('.toggle_btn')
+    const toggleBtnIcon=document .querySelector('.toggle_btn i')
+    const dropdown=document .querySelector('.drop')
+    
+    toggleBtn .onclick=function(){
+        dropdown.classList('open')
+        const isOpen=dropdown.classList.contains('open')
+        toggleBtn .classList=isOpen
+        ?'fa-solid fa-xmark'
+        :'fa-solid fa-bars'
+    }
+</script>
+<script src="main.js"></script>
+</body>
+</html>
